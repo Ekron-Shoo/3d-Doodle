@@ -8,7 +8,7 @@ var bin1, bin2, bin3, ball, ground;
 
 
 function setup(){
-    createCanvas(1200, 800);
+    createCanvas(screen.width, screen.height);
     background("black");
 
     engine = Engine.create();
